@@ -6,5 +6,3 @@
 
 A theme good for coding and reading.
 
-
-
