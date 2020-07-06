@@ -15,8 +15,38 @@ Our mission is to make a **user-friendly** and **collaborative** product for eve
 
 #### Code Fences
 
-```
+```javascript
+class Utils {
+  animate(element: Element, attr: string, change: { from: number, to: number, duration?: number }, onEnd?: () => void) {
+    if (change.from = = change.to) return;
 
+    if (!change.duration)
+      element[attr] = change.to;
+
+    const easing = (t, b, c, d) => c * ((t = t / d - 1) * t * t + 1) + b,
+      { from, to } = change,
+      during = Math.ceil((change.duration || 300) / 17) || 1;
+
+    let start = 0,
+      instance = null;
+
+    step();
+
+    function step() {
+      const value = Math.ceil(easing(start, from, to - from, during));
+
+      start++;
+      if (start <= during) {
+        element[attr] = value;
+        instance = requestAnimationFrame(step);
+      }
+      else {
+        if (onEnd) onEnd();
+        cancelAnimationFrame(instance);
+      }
+    }
+  }
+}
 ```
 
 
