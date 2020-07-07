@@ -23,8 +23,7 @@
     color: #f0f0f0;
 }
 
-#typora-sidebar .file-tree-node.file-library-file-node.active .file-node-background,
-#typora-sidebar .file-list-item.file-library-file-node.active {
+#typora-sidebar .file-tree-node.file-library-file-node.active .file-node-background {
   border-left: 5px solid #3884ff;
 }
 
@@ -45,6 +44,13 @@
     -webkit-transition: top .5s;
 }
 
+.file-list-item.active {
+  background: #2f4566;
+  background: var(--active-file-bg-color);
+  color: var(--active-file-text-color);
+  border-radius: 10px;
+}
+
 .file-list-item:not(.active) {
     opacity: .9;
 }
@@ -52,6 +58,14 @@
 .sidebar-footer {
   background: var(--side-bar-bg-color);
   border-top: 1px #555 solid;
+}
+
+#typora-sidebar #ty-sidebar-footer .sidebar-footer-item:hover {
+  background: #021d43;
+}
+
+#typora-sidebar #outline-content .outline-item:hover {
+  background: #202020;
 }
 
 
@@ -180,7 +194,7 @@ body {
 html, 
 body {
   color: #242A31;
-  width: 100%;
+  /* width: 100%; */
   height: 100%;
   margin: 0;
   padding: 0;
@@ -191,6 +205,53 @@ body {
   text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+} 
+
+hr {
+  border-color: #e6ecf1;
+  height: 2px;
+  border-top: 2px solid #e6ecf1;
+}
+
+/****** ul ol Style ******/
+
+ul>li>ul>li {
+  list-style-type: circle;
+}
+
+ul>li>ul>li>ul>li {
+  list-style-type: square;
+}
+
+ol,
+ul {
+  padding-left: 2em;
+  line-height: 2;
+}
+
+ol>li {
+  list-style-type: decimal
+}
+
+ol>li>ol>li {
+  list-style-type: lower-alpha
+}
+
+ol>li>ol>li>ol>li {
+  list-style-type: lower-roman
+}
+
+/****** YAML Style ******/
+pre.md-meta-block {
+  font-size: .75rem !important;
+  color: #5d5d5d;
+  min-height: .8rem;
+  white-space: pre-wrap;
+  background: #f5f7f9;
+  display: block;
+  overflow-x: hidden;
+  padding: 1rem;
+  border-radius: 8px;
 }
 
 /****** Global Text ******/
@@ -202,6 +263,17 @@ p {
   font-style: normal;
   color: rgb(59, 69, 78);
 }
+
+a {
+  /* color: rgb(164, 78, 237); */
+  color: rgb(56, 132, 254);
+  font-weight: 500;
+  text-decoration: none;
+  text-decoration-style: none;
+  cursor: pointer;
+  padding: 0 3px 0 3px;
+}
+
 
 
 /****** #write Code Fences ******/
@@ -315,7 +387,7 @@ code {
   
 code,
 pre{
-    font-size: 85%;
+    font-size: 90% !important;
     font-weight: normal;
     font-family: 'Cascadia Code', Consolas, 'Noto Sans SC','Courier New', monospace;
     -webkit-font-smoothing: initial;
@@ -363,15 +435,3 @@ pre{
   background-color: #263238;
 }
 
-/****** YAML Style ******/
-pre.md-meta-block {
-  font-size: .8rem;
-  color: #5d5d5d;
-  min-height: .8rem;
-  white-space: pre-wrap;
-  background: #f5f7f9;
-  display: block;
-  overflow-x: hidden;
-  padding: 1rem;
-  border-radius: 8px;
-}
