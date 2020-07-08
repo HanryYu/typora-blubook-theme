@@ -1,0 +1,170 @@
+/* noto-sans-sc-300 - latin */
+@font-face {
+  font-family: 'GlowSansSC';
+  font-style: normal;
+  font-weight: 100;
+  src: local('GlowSansSC Thin'), local('GlowSansSC-Thin'),
+       url('../blubook/GlowSansSC-Normal-Thin.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+  font-family: 'GlowSansSC';
+  font-style: normal;
+  font-weight: 200;
+  src: local('GlowSansSC Extralight'), local('GlowSansSC-ExtraLight'),
+       url('../blubook/GlowSansSC-Normal-ExtraLight.woff') format('woff'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+     
+}
+
+/* noto-sans-sc-300 - latin */
+@font-face {
+    font-family: 'GlowSansSC';
+    font-style: normal;
+    font-weight: 300;
+    src: local('GlowSansSC Light'), local('GlowSansSC-Light'),
+         url('../blubook/GlowSansSC-Normal-Light.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* noto-sans-sc-regular - latin */
+  @font-face {
+    font-family: 'GlowSansSC';
+    font-style: normal;
+    font-weight: 400;
+    src: local('GlowSansSC Regular'), local('GlowSansSC-Regular'),
+         url('../blubook/GlowSansSC-Normal-Regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  /* noto-sans-sc-500 - latin */
+  @font-face {
+    font-family: 'GlowSansSC';
+    font-style: normal;
+    font-weight: 500;
+    src: local('GlowSansSC Book'), local('GlowSansSC-Book'),
+         url('../blubook/GlowSansSC-Normal-Book.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* noto-sans-sc-700 - latin */
+  @font-face {
+    font-family: 'GlowSansSC';
+    font-style: normal;
+    font-weight: 600;
+    src: local('GlowSansSC Medium'), local('GlowSansSC-Medium'),
+         url('../blubook/GlowSansSC-Normal-Medium.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  /* noto-sans-sc-900 - latin */
+  @font-face {
+    font-family: 'GlowSansSC';
+    font-style: normal;
+    font-weight: 700;
+    src: local('GlowSansSC Bold'), local('GlowSansSC-Bold'),
+         url('./blubook/GlowSansSC-Normal-Bold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+@font-face {
+    font-family: 'GlowSansSC';
+    font-style: normal;
+    font-weight: 800;
+    src: local('GlowSansSC ExtraBold'), local('GlowSansSC-ExtraBold'),
+         url('../blubook/GlowSansSC-Normal-ExtraBold.woff') format('woff'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       
+}
+
+@font-face {
+  font-family: 'GlowSansSC';
+  font-style: normal;
+  font-weight: 900;
+  src: local('GlowSansSC Heavy'), local('GlowSansSC-Heavy'),
+       url('../blubook/GlowSansSC-Normal-Heavy.woff') format('woff'), /* Chrome 26+, Opera 23+, Firefox 39+ */    
+}
+
+@font-face {
+    font-family: 'Galada';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Galada'),url('./blubook/Galada.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Galada';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Galada Regular'),url('./blubook/Galada-Regular.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Baloo Bhaijaan';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Baloo Bhaijaan'),url('./blubook/Baloo_Bhaijaan.woff2') format('woff2');
+  }
+  
+  /* josefin-sans-100 - latin */
+  @font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 100;
+    src: local(''),
+         url('./blubook/josefin-sans-v15-latin-100.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./blubook/josefin-sans-v15-latin-100.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* josefin-sans-300 - latin */
+  @font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+         url('./blubook/josefin-sans-v15-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./blubook/josefin-sans-v15-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* josefin-sans-200 - latin */
+  @font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 200;
+    src: local(''),
+         url('./blubook/josefin-sans-v15-latin-200.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./blubook/josefin-sans-v15-latin-200.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* josefin-sans-regular - latin */
+  @font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('./blubook/josefin-sans-v15-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./blubook/josefin-sans-v15-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* josefin-sans-600 - latin */
+  @font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('./blubook/josefin-sans-v15-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./blubook/josefin-sans-v15-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* josefin-sans-500 - latin */
+  @font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('./blubook/josefin-sans-v15-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./blubook/josefin-sans-v15-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* josefin-sans-700 - latin */
+  @font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+         url('./blubook/josefin-sans-v15-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./blubook/josefin-sans-v15-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  @font-face {
+    font-family: 'CascadiaCode';
+    font-style: normal;
+    src: local(''),
+         url('../blubook/CascadiaCode.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  }
+  
