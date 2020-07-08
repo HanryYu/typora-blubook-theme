@@ -9,7 +9,6 @@
 ## 🌠Features
 
 - 👨‍💻‍ Code-Fences fonts use Cascadia Code. This fonts support ligature, when you enter code text same as  '=>'  then will be auto change  one character `=>`
-- 💻
 
 #### Code Fences
 
