@@ -8,7 +8,7 @@
 
 ## 🌠Features
 
-- 📝📖Most fonts use Glow-Sans-SC (未来荧黑), this font good for read even you write Chinese or English.
+- 📝📖Most fonts use Glow-Sans-SC (未来荧黑) that is good for reading even you write Chinese or English.
 
 ![image-20200708104640527](https://cdn.jsdelivr.net/gh/FishionYu/Rayyu-sPic@master/img/image-20200708104640527.png)
 
