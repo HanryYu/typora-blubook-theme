@@ -1,10 +1,12 @@
-# typora-Blubook-themes
+# typora-blubook-themes
 
 [![GitHub stars](https://img.shields.io/github/stars/FishionYu/typora-blubook-theme?style=flat-square)](https://github.com/FishionYu/typora-blubook-theme/stargazers)  ![GitHub All Releases](https://img.shields.io/github/downloads/FishionYu/typora-blubook-theme/total?color=%23c060a1&style=flat-square)  [![GitHub license](https://img.shields.io/github/license/FishionYu/typora-blubook-theme?style=flat-square)](https://github.com/FishionYu/typora-blubook-theme/blob/master/LICENSE)
 
+![image-20200709174602423](https://cdn.jsdelivr.net/gh/FishionYu/Rayyu-sPic@master/img/image-20200709174602423.png)
+
 ## 📘What is Blubook
 
-> **Blubook** is a flat and Beautiful theme for Typora. This theme is good for writing. 
+> 🕵️ **Blubook** is a flat and Beautiful theme for Typora. This theme is good for writing. 
 
 ## 🌠Features
 
