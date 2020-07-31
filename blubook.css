@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /*** Custom fonts ***/
-@import url('../blubook/fonts.css');
+@import url('./blubook/fonts.css');
 
 /*** Color setting ***/
 :root {
@@ -25,9 +25,7 @@
     max-width: 700px;
     line-height: 1.6;
     transform: none;
-    margin: 0 5rem 0;
     height: auto;
-    padding-top: 20px;
 }
 
 /****** #write h1-h6 ******/
@@ -406,7 +404,8 @@ h5,  h6 {
 }
 
 #typora-sidebar .file-tree-node.file-library-file-node.active .file-node-background {
-border-left: 5px solid #3884ff;
+  border-left: 5px solid #3884ff;
+  height: 2.6rem;
 }
 
 .file-list-item {
@@ -427,14 +426,37 @@ border-left: 5px solid #3884ff;
 }
 
 .file-list-item.active {
-background: #2f4566;
-background: var(--active-file-bg-color);
-color: var(--active-file-text-color);
-border-radius: 12px;
+  background: #2f4566;
+  /* background: var(--active-file-bg-color); */
+  color: var(--active-file-text-color);
+  border-radius: 12px;
 }
 
 .file-list-item:not(.active) {
   opacity: .9;
+}
+
+.file-node-content {
+  padding-top: .8rem;
+  margin-bottom: .8rem;
+  cursor: default;
+  color: var(--control-text-color);
+  white-space: nowrap;
+  height: 2rem;
+}
+
+.file-node-content:active {
+  border-radius: 0px!important;
+  background: #2f4566;
+}
+
+.active .file-node-content {
+  font-weight: bold;
+}
+
+.file-node-content:hover {
+  cursor: pointer;
+  border-radius: 0px!important;
 }
 
 .sidebar-footer {
@@ -470,6 +492,16 @@ color: #3884FF;
 background: #001129;
 }
 
+#typora-sidebar .file-list-item.file-library-node:not(.active):hover {
+  background: #243959;
+  border-radius: 12px;
+}
+
+#typora-sidebar .file-tree-node.file-library-file-node:not(.active):hover .file-node-background {
+  background: #243959;
+  border-radius: 12px;
+  height: 2.6rem;
+}
 
 /****** Quote style ******/
 blockquote {
@@ -498,7 +530,7 @@ blockquote::before {
 
 /****** Code style ******/
 code {
-    font-size: .8em; 
+    font-size: .9em; 
   /*   color: #333333; /*  #537AA2;  
       border: 1px solid #d0d0d0;  */
     font-family: 'Cascadia Code', Consolas, 'Noto Sans SC','Courier New', monospace;
