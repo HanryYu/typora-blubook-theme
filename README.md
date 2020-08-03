@@ -16,17 +16,22 @@
 
 ![image-20200708104640527](https://cdn.jsdelivr.net/gh/FishionYu/Rayyu-sPic@master/img/image-20200708104640527.png)
 
+- 🎨Some Typora interface use rounded corners to make it look better.
+
+![image-20200708104854550](https://cdn.jsdelivr.net/gh/FishionYu/Rayyu-sPic@master/img/image-20200708104854550.png)
+
+> ​	🕵️ Tips: Typora sidebar use File-List-Mode will be better.
+
 - 👨‍💻‍👩‍💻 Code-Fences fonts use Cascadia Code. This fonts support ligature, when you enter code text same as  '=>'  then will be auto change one character.
 
    For example ⬇️
 
    <img src="https://cdn.jsdelivr.net/gh/FishionYu/Rayyu-sPic@master/img/image-20200708094758539.png" alt="image-20200708094758539" style="zoom:50%;" />
 
-- 🎨Some Typora interface use rounded corners to make it look better.
 
-![image-20200708104854550](https://cdn.jsdelivr.net/gh/FishionYu/Rayyu-sPic@master/img/image-20200708104854550.png)
+- ⌨️Code example.
 
-> 🕵️ Tips: Typora sidebar use File-List-Mode will be better.
+![image-20200803110936990](https://cdn.jsdelivr.net/gh/FishionYu/Rayyu-sPic@master/img/image-20200803110936990.png)
 
 ## 🔨Install
 
