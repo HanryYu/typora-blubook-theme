@@ -4,6 +4,8 @@
 
 ![image-20200709174602423](https://cdn.jsdelivr.net/gh/FishionYu/Rayyu-sPic@master/img/image-20200709174602423.png)
 
+:gb:[英文](https://github.com/FishionYu/typora-blubook-theme):cn:[中文](https://github.com/FishionYu/typora-blubook-theme/blob/master/README2.md)
+
 ## 📘What is Blubook
 
 > 🕵️ **Blubook** is a flat and Beautiful theme for Typora. This theme is good for writing. 

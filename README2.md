@@ -28,8 +28,8 @@
 
 ## 🔨Install
 
-1. Download [this](https://github.com/FishionYu/typora-blubook-theme/releases/latest) zip from Github, extract this file, then you can get the `blubook` folder and `blubook.css` .
-2. Open typora, click `Preference` → `Apperance` → `Open Theme Folder `.
-3. Put `blubook` folder and `blubook.css` into the open folder.
-4. Close Typora totally, reopen Typora and select `Theme` → `inside` from the menu bar.
+1. 下载 [这个链接](https://github.com/FishionYu/typora-blubook-theme/releases/latest) 里的zip文件，解压出来，你可以看到一个 `blubook` 文件夹和 `blubook.css` 文件。
+2. 打开 Typora，单击左上角 `偏好设置` → `外观` → `打开主题文件夹 `。
+3. 把刚刚解压的 `blubook`文件夹和 `blubook.css`文件移动到这个文件夹。
+4. 彻底关闭Typora，然后重新打开 ，在 `主题 `菜单栏中选择`Blubook`。
 
