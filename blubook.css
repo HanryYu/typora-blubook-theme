@@ -459,6 +459,17 @@ h5,  h6 {
   border-radius: 0px!important;
 }
 
+.file-node-icon, .file-node-open-state {
+  display: block;
+  float: left;
+  line-height: 15px;
+  min-height: 15px;
+}
+
+.file-node-icon {
+  margin-right: 6px;
+}
+
 .sidebar-footer {
 background: var(--side-bar-bg-color);
 border-top: 1px #555 solid;
