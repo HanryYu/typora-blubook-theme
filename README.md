@@ -38,5 +38,5 @@
 1. Download [this](https://github.com/FishionYu/typora-blubook-theme/releases/latest) zip from Github, extract this file, then you can get the `blubook` folder and `blubook.css` .
 2. Open typora, click `Preference` → `Apperance` → `Open Theme Folder `.
 3. Put `blubook` folder and `blubook.css` into the open folder.
-4. Close Typora totally, reopen Typora and select `Theme` → `inside` from the menu bar.
+4. Close Typora totally, reopen Typora and select `Theme` → `Blubook` from the menu bar.
 
