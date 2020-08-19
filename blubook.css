@@ -590,6 +590,14 @@ div.md-mathjax-preview.mathjax-candidate.mathjax-candidate-show {
   background-color: white;
 }
 
+input {
+  font-weight: bold;
+  background-color: inherit;
+  background-color: var(--bg-color);
+  color: var(--text-color)!important;
+  transform: translateY(-8px);
+}
+
 /****** Code highlight ******/
 .cm-s-inner .CodeMirror-guttermarker, .cm-s-inner .CodeMirror-guttermarker-subtle, .cm-s-inner .CodeMirror-linenumber { color: #596774; }
 .cm-s-inner .CodeMirror-cursor { border-left: 1px solid #f8f8f0; }
