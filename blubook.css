@@ -89,7 +89,7 @@
 
 #write h3::before {
   content: 'H3';
-  bottom: .55rem;
+  top: .75rem;
 }
 
 #write h4 {
@@ -276,6 +276,12 @@ strong {
   font-weight: 700;
 }
 
+mark {
+  background: #87CEFA;
+  padding: 0 2px 0 2px;
+  margin: 0 2px 0 2px;
+}
+
 h1 {
   font-size: 2rem;
   font-style: normal;
@@ -286,7 +292,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.8px;
+  font-size: 1.8rem;
   font-weight: 800;
   font-style: normal;
   line-height: 2;
@@ -295,7 +301,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.6px;
+  font-size: 1.6rem;
   font-weight: 800;
   line-height: 2;
   font-style: normal;
@@ -304,7 +310,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1.2px;
+  font-size: 1.2rem;
   font-weight: 800;
   line-height: 2;
   font-style: normal;
@@ -405,7 +411,7 @@ h5,  h6 {
 
 #typora-sidebar .file-tree-node.file-library-file-node.active .file-node-background {
   border-left: 5px solid #3884ff;
-  height: 2.6rem;
+  height: 2.2rem;
 }
 
 .file-list-item {
@@ -437,12 +443,17 @@ h5,  h6 {
 }
 
 .file-node-content {
-  padding-top: .8rem;
-  margin-bottom: .8rem;
+  padding-top: 8px;
+  margin: 5px 0 5px 0;
   cursor: default;
   color: var(--control-text-color);
   white-space: nowrap;
-  height: 2rem;
+  height: 2.2rem;
+}
+
+.ty-on-drag-enter {
+  background-color: #2f4566;
+  color: var(--item-hover-text-color);
 }
 
 .file-node-content:active {
@@ -511,7 +522,7 @@ background: #001129;
 #typora-sidebar .file-tree-node.file-library-file-node:not(.active):hover .file-node-background {
   background: #243959;
   border-radius: 12px;
-  height: 2.6rem;
+  height: 2.2rem;
 }
 
 /****** Quote style ******/
@@ -564,6 +575,19 @@ pre{
   display: inline-block;
   white-space: pre;
   font-family: initial;
+}
+
+div.md-mathjax-preview.mathjax-candidate.mathjax-candidate-show {
+  background-color: white !important;
+  -webkit-user-modify: read-only;
+}
+
+.mathjax-candidate {
+  text-align: center;
+  padding-top: inherit;
+  overflow-x: auto;
+  padding: 10px 0;
+  background-color: white;
 }
 
 /****** Code highlight ******/
