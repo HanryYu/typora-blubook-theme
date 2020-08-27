@@ -489,6 +489,21 @@ background: var(--side-bar-bg-color);
 border-top: 1px #555 solid;
 }
 
+.html-for-mac #file-library-search-input {
+border: 0;
+border-bottom: 1px solid #ccc;
+line-height: 16px;
+margin: 5px 16px 0px 0;
+width: 0;
+/* -webkit-flex: 1; */
+flex: 1;
+background: 0 0;
+color: #bbc0ca!important;
+/* transform: translateY(-3px); */
+/* overflow: auto; */
+padding-top: 6px;
+}
+
 #typora-sidebar #ty-sidebar-footer .sidebar-footer-item:hover {
 background: #021d43;
 }
