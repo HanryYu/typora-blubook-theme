@@ -417,6 +417,10 @@ h5,  h6 {
   height: 2.2rem;
 }
 
+#sidebar-files-menu {
+  border: 1px solid rgba(0, 2, 3, 0.7);
+}
+
 .file-list-item {
   border-bottom: var(--window-border);
 }
@@ -703,7 +707,7 @@ input {
 .cm-s-inner .cm-def { color: rgba(233, 237, 237, 1); }
 .cm-s-inner .cm-string { color: #C3E88D; }
 .cm-s-inner .cm-string-2 { color: #80CBC4; }
-.cm-s-inner .cm-comment { color: #546E7A; }
+.cm-s-inner .cm-comment { color: #969fa3; }
 .cm-s-inner .cm-variable { color: #82B1FF; }
 .cm-s-inner .cm-tag { color: #80CBC4; }
 .cm-s-inner .cm-meta { color: #80CBC4; }
