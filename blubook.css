@@ -331,7 +331,7 @@ h5,  h6 {
 /****** #write Code Fences ******/
 #write .md-fences {
     -webkit-font-smoothing: initial;
-    margin: 1.8rem 0 2rem 0 !important;
+    margin: 1rem 0 1rem 0 !important;
     line-height: 1.43rem;
     border-radius: 3px;
     font-size: 0.95rem;
