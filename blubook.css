@@ -46,8 +46,6 @@
   left: auto;
   float: none;
   padding: 0;
-  vertical-align: baseline;
-  line-height: 2;
 }
 
 #write h1 {
@@ -130,7 +128,7 @@
 /****** Global Style ******/
 body {
   margin: 0;
-  font-family: "Glow Sans SC", -apple-system, sans-serif;
+  font-family: 'Glow Sans SC', -apple-system, sans-serif;
   font-weight: 500;
   text-rendering: geometricPrecision;
   -webkit-font-smoothing: antialiased;
@@ -325,6 +323,45 @@ h5,  h6 {
   font-style: normal;
   margin-top: 14px;
   margin-bottom: 14px;
+}
+
+
+/****** Print header ******/
+@media print {
+  .typora-export * {
+    -webkit-print-color-adjust: exact;
+  }
+  #write h1::before {
+    content: '';
+    bottom: 1rem;
+  }
+
+  #write h2::before {
+    content: '';
+    bottom: 1rem;
+  }
+
+  #write h3::before {
+    content: '';
+    bottom: 1rem;
+  }
+
+  #write h4::before {
+    content: '';
+    bottom: 1rem;
+  }
+
+  #write h5::before {
+    content: '';
+    bottom: 1rem;
+  }
+
+  #write h6::before {
+    content: '';
+    bottom: 1rem;
+  }
+
+
 }
 
 
@@ -728,4 +765,5 @@ input {
 .md-fences .code-tooltip {
   background-color: #263238;
 }
+
 
