@@ -20,18 +20,16 @@
 
 ![image-20200708104854550](https://cdn.jsdelivr.net/gh/FishionYu/Rayyu-sPic@master/img/image-20200708104854550.png)
 
-> ​	🕵️ Tips: Typora sidebar use File-List-Mode will be better.
-
-- 👨‍💻‍👩‍💻 Code-Fences fonts use Cascadia Code. This fonts support ligature, when you enter code text same as  '=>'  then will be auto change one character.
+- 👨‍💻‍👩‍💻 Code-Fences fonts use `Cascadia Code`. This fonts support ligature, when you enter code text same as  '=>'  then will be auto change one character.
 
    For example ⬇️
 
    <img src="https://cdn.jsdelivr.net/gh/FishionYu/Rayyu-sPic@master/img/image-20200708094758539.png" alt="image-20200708094758539" style="zoom:50%;" />
 
 
-- ⌨️Code example.
+- ⌨️Improve the experience of writing code notes as much as possible. Use a rich enough highlighting effect.
 
-![image-20200803110936990](https://cdn.jsdelivr.net/gh/FishionYu/Rayyu-sPic@master/img/image-20200803110936990.png)
+![image-20200929160011736](https://cdn.jsdelivr.net/gh/FishionYu/Rayyu-sPic@master/img/image-20200929160011736.png)
 
 ## 🔨Install
 
