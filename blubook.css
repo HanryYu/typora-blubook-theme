@@ -687,6 +687,11 @@ pre{
     -moz-osx-font-smoothing: initial
 }
 
+/****** Windows contral ******/
+.megamenu-menu-list li a.active, .megamenu-menu-list:not(.saved) li a:hover {
+  background-color: #285e8e;
+}
+
 /****** Fix ******/
 .md-tab {
   display: inline-block;
