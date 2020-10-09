@@ -17,7 +17,6 @@
     --code-cursor: #f0f0f0;
 }
 
-
 /****** #write basic ******/
 #write {
     position: static;
@@ -160,7 +159,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-size: 16px;
+  font-size: 14px;
   background: #ffffff;
   box-sizing: border-box;
   line-height: 1rem ;
