@@ -487,12 +487,13 @@ h5,  h6 {
 }
 
 .file-node-content {
-  padding-top: 8px;
-  margin: 5px 0 5px 0;
+  padding-top: 6px;
+  margin: 0 0 8px 0;
   cursor: default;
   color: var(--control-text-color);
   white-space: nowrap;
   height: 2.2rem;
+  line-height: 1.5;
 }
 
 .ty-on-drag-enter {
@@ -517,7 +518,7 @@ h5,  h6 {
 .file-node-icon, .file-node-open-state {
   display: block;
   float: left;
-  line-height: 15px;
+  line-height: 1.5;
   min-height: 15px;
 }
 
