@@ -439,7 +439,7 @@ h5,  h6 {
 
 .md-fences, tt {
   border-radius: 3px;
-  color: #f0f0f0;
+  /* color: #f0f0f0; */
   padding: 0;
   font-size: 0.9em;
 }
@@ -686,6 +686,14 @@ pre{
     -webkit-font-smoothing: initial;
     -moz-osx-font-smoothing: initial
 }
+
+/****** The flow chart ******/
+pre.md-fences[lang=sequence].md-focus .md-diagram-panel, pre.md-fences[lang=flow].md-focus .md-diagram-panel, pre.md-fences[lang=mermaid].md-focus .md-diagram-panel {
+  position: absolute;
+  border: px solid #777
+}
+
+
 
 /****** Windows contral ******/
 .megamenu-menu-list li a.active, .megamenu-menu-list:not(.saved) li a:hover {
