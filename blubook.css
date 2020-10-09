@@ -49,7 +49,7 @@
 }
 
 #write h1 {
-  font-size: 32px;
+  font-size: 2.2rem;
   font-style: normal;
   font-weight: 800;
   line-height: 2;
@@ -63,7 +63,7 @@
 }
 
 #write h2 {
-  font-size: 28px;
+  font-size: 2rem;
   font-weight: 800;
   font-style: normal;
   line-height: 2;
@@ -77,7 +77,7 @@
 }
 
 #write h3 {
-  font-size: 24px;
+  font-size: 1.6rem;
   font-weight: 800;
   line-height: 2;
   font-style: normal;
@@ -87,11 +87,12 @@
 
 #write h3::before {
   content: 'H3';
-  top: .75rem;
+  top: .44rem;
+  padding: 3px 0 3px 0;
 }
 
 #write h4 {
-  font-size: 20px;
+  font-size: 1.4rem;
   font-weight: 800;
   line-height: 2;
   font-style: normal;
@@ -101,11 +102,11 @@
 
 #write h4::before {
   content: 'H4';
-  bottom: .35rem;
+  top: .4rem;
 }
 
 #write h5, #write h6 {
-  font-size: 16px;
+  font-size: 1.2rem;
   font-weight: 800;
   line-height: 2;
   font-style: normal;
@@ -114,7 +115,7 @@
 }
 
 #write h5::before, #write h6::before {
-  bottom: .1rem;
+  top: .2rem;
 }
 
 #write h5::before {
@@ -123,6 +124,23 @@
 
 #write h6::before {
   content: 'H6';
+}
+
+h3.md-focus:before, h4.md-focus:before, h5.md-focus:before, h6.md-focus:before {
+  color: #ddd;
+  color: var(--heading-char-color);
+  border: 1px solid;
+  border-radius: 3px;
+  position: absolute;
+  left: -1.642857143rem;
+  top: .357142857rem;
+  float: left;
+  font-size: 9px;
+  padding-left: 2px;
+  padding-right: 2px;
+  vertical-align: bottom;
+  font-weight: 400;
+  line-height: 2;
 }
 
 /****** Global Style ******/
@@ -142,10 +160,10 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-size: 15px;
+  font-size: 16px;
   background: #ffffff;
   box-sizing: border-box;
-  line-height: 1em;
+  line-height: 1rem ;
   text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
@@ -159,8 +177,8 @@ hr {
 
 img {
   max-width: 80%;
-  margin-top: 0.2em;
-  margin-bottom: 0.2em;
+  margin-top: 0.2rem ;
+  margin-bottom: 0.2rem ;
 }
 
 /****** ul ol Style ******/
@@ -175,8 +193,8 @@ ul>li>ul>li>ul>li {
 
 ol,
 ul {
-  padding-left: 2em;
-  line-height: 2;
+  padding-left: 2rem ;
+  line-height: 1;
 }
 
 ol>li {
@@ -233,12 +251,12 @@ table tr td:last-child {
 pre.md-meta-block {
   font-size: .75rem !important;
   color: #5d5d5d;
-  min-height: .8rem;
+  min-height: .8rem ;
   white-space: pre-wrap;
   background: #f5f7f9;
   display: block;
   overflow-x: hidden;
-  padding: 1rem;
+  padding: 1rem ;
   border-radius: 8px;
 }
 
@@ -281,7 +299,7 @@ mark {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2rem ;
   font-style: normal;
   font-weight: 800;
   line-height: 2;
@@ -290,7 +308,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 1.8rem ;
   font-weight: 800;
   font-style: normal;
   line-height: 2;
@@ -299,7 +317,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.6rem;
+  font-size: 1.6rem ;
   font-weight: 800;
   line-height: 2;
   font-style: normal;
@@ -308,7 +326,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1.2rem;
+  font-size: 1.2rem ;
   font-weight: 800;
   line-height: 2;
   font-style: normal;
@@ -317,7 +335,7 @@ h4 {
 }
 
 h5,  h6 {
-  font-size: 1rem;
+  font-size: 1rem ;
   font-weight: 800;
   line-height: 2;
   font-style: normal;
@@ -333,32 +351,32 @@ h5,  h6 {
   }
   #write h1::before {
     content: '';
-    bottom: 1rem;
+    bottom: 1rem ;
   }
 
   #write h2::before {
     content: '';
-    bottom: 1rem;
+    bottom: 1rem ;
   }
 
   #write h3::before {
     content: '';
-    bottom: 1rem;
+    bottom: 1rem ;
   }
 
   #write h4::before {
     content: '';
-    bottom: 1rem;
+    bottom: 1rem ;
   }
 
   #write h5::before {
     content: '';
-    bottom: 1rem;
+    bottom: 1rem ;
   }
 
   #write h6::before {
     content: '';
-    bottom: 1rem;
+    bottom: 1rem ;
   }
 
 
@@ -369,16 +387,16 @@ h5,  h6 {
 #write .md-fences {
     -webkit-font-smoothing: initial;
     margin: 1rem 0 1rem 0 !important;
-    line-height: 1.43rem;
+    line-height: 1.43rem ;
     border-radius: 3px;
-    font-size: 0.95rem;
+    font-size: 0.95rem ;
     word-wrap: normal;
 }
 
 
 #write .CodeMirror-wrap .CodeMirror-code pre {
     padding-left: 12px;
-    line-height: 1.55rem;
+    line-height: 1.55rem ;
 }
   
 #write .CodeMirror-cursors .CodeMirror-cursor {
@@ -390,7 +408,7 @@ h5,  h6 {
     margin: 0 2px;
     padding: 4px 6px;
     border-radius: 6px;
-    font-size: 0.92rem;
+    font-size: 0.92rem ;
     background: #f5f7f9;
     display: inline;
     vertical-align: bottom;
@@ -403,7 +421,7 @@ h5,  h6 {
 }
 
 .cm-s-inner.CodeMirror, .cm-s-inner .CodeMirror-gutters {
-  padding: 0.75rem 0.15rem 0.75rem 0.15rem;
+  padding: 0.75rem 0.15rem 0.75rem 0.15rem ;
   background-color: #183055 !important;
   color: #f8f8f2 !important;
   border: none;
@@ -441,7 +459,7 @@ h5,  h6 {
   border-radius: 3px;
   /* color: #f0f0f0; */
   padding: 0;
-  font-size: 0.9em;
+  font-size: 0.9rem;
 }
 
 /****** Sidebar ******/
@@ -615,7 +633,7 @@ blockquote::before {
 
 .md-task-list-item > input{
 	top: -0.2rem;
-	margin-left: -1.6em;
+	margin-left: -1.6rem;
 	margin-top: calc(1rem + 1px);
     -webkit-appearance: initial;
 }
@@ -667,11 +685,11 @@ blockquote::before {
 
 /****** Code style ******/
 code {
-    font-size: .9em; 
+    font-size: .9rem; 
   /*   color: #333333; /*  #537AA2;  
       border: 1px solid #d0d0d0;  */
     font-family: 'Cascadia Code', Consolas, 'Noto Sans SC','Courier New', monospace;
-    padding: .2em .2em;
+    padding: .2rem .2rem;
     border-radius: 3px;
     background: #f5f7f9 !important;
     display: inline;
@@ -735,7 +753,7 @@ input {
 
 .md-task-list-item > input{
 	top: -0.2rem;
-	margin-left: -1.6em;
+	margin-left: -1.6rem;
 	margin-top: calc(1rem + 1px);
 }
 
