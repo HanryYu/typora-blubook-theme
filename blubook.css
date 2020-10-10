@@ -711,7 +711,21 @@ pre.md-fences[lang=sequence].md-focus .md-diagram-panel, pre.md-fences[lang=flow
   border: px solid #777
 }
 
-
+.code-tooltip .ty-input, .code-tooltip input {
+  background-color: transparent;
+  border: 0;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 0;
+  margin-right: 0;
+  border-radius: 3px;
+  text-align: center;
+  min-width: 140px;
+  display: inline-block;
+  padding: 0 4px;
+  line-height: 1.5;
+  color: #fff;
+}
 
 /****** Windows contral ******/
 .megamenu-menu-list li a.active, .megamenu-menu-list:not(.saved) li a:hover {
