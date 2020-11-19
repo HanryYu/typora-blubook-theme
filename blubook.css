@@ -407,7 +407,7 @@ h5,  h6 {
     margin: 0 2px;
     padding: 4px 6px;
     border-radius: 6px;
-    font-size: 0.92rem ;
+    font-size: 0.92rem !important ;
     background: #f5f7f9;
     display: inline;
     vertical-align: bottom;
