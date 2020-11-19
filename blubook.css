@@ -543,6 +543,16 @@ h5,  h6 {
   margin-right: 6px;
 }
 
+.file-list-item-file-name {
+  font-weight: 700;
+  margin-bottom: 3px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  line-height: 2;
+}
+
 .sidebar-footer {
 background: var(--side-bar-bg-color);
 border-top: 1px #555 solid;
@@ -698,7 +708,7 @@ code {
   
 code,
 pre{
-    font-size: 90% !important;
+    font-size: 95% !important;
     font-weight: normal;
     font-family: 'Cascadia Code', Consolas, 'Noto Sans SC','Courier New', monospace;
     -webkit-font-smoothing: initial;
