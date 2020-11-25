@@ -248,7 +248,7 @@ table tr td:last-child {
 
 /****** YAML Style ******/
 pre.md-meta-block {
-  font-size: .75rem !important;
+  font-size: .85rem !important;
   color: #5d5d5d;
   min-height: .8rem ;
   white-space: pre-wrap;
