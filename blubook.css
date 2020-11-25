@@ -248,7 +248,7 @@ table tr td:last-child {
 
 /****** YAML Style ******/
 pre.md-meta-block {
-  font-size: .85rem !important;
+  font-size: .75rem !important;
   color: #5d5d5d;
   min-height: .8rem ;
   white-space: pre-wrap;
@@ -394,7 +394,7 @@ h5,  h6 {
 
 
 #write .CodeMirror-wrap .CodeMirror-code pre {
-    padding-left: 12px;
+    padding-left: 30px;
     line-height: 1.55rem ;
 }
   
@@ -717,8 +717,10 @@ pre{
 
 /****** The flow chart ******/
 pre.md-fences[lang=sequence].md-focus .md-diagram-panel, pre.md-fences[lang=flow].md-focus .md-diagram-panel, pre.md-fences[lang=mermaid].md-focus .md-diagram-panel {
-  position: absolute;
-  border: px solid #777
+  position: -webkit-sticky;
+  border: 1px solid #777;
+  border-radius: 6px;
+  margin-top: 6px;
 }
 
 .code-tooltip .ty-input, .code-tooltip input {
@@ -735,6 +737,11 @@ pre.md-fences[lang=sequence].md-focus .md-diagram-panel, pre.md-fences[lang=flow
   padding: 0 4px;
   line-height: 1.5;
   color: #fff;
+}
+
+.enable-diagrams pre.md-fences[lang=sequence] .code-tooltip, .enable-diagrams pre.md-fences[lang=flow] .code-tooltip, .enable-diagrams pre.md-fences[lang=mermaid] .code-tooltip {
+  right: 8px;
+  bottom: -2.2em;
 }
 
 /****** Windows contral ******/
@@ -780,6 +787,32 @@ input {
 	margin-top: calc(1rem + 1px);
 }
 
+.auto-suggest-container li {
+  padding: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  min-width: 124px;
+  position: relative;
+  line-height: 1.4;
+}
+
+.auto-suggest-container {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-shadow: 0 0 1px rgba(0,0,0,.1);
+  position: fixed;
+  background-color: #fff;
+  background-color: var(--bg-color);
+  z-index: 10;
+  font-size: .9rem;
+  display: none;
+  padding: 4px 6px 4px 6px;
+  line-height: 20px;
+}
+
 /****** Code highlight ******/
 .cm-s-inner .CodeMirror-guttermarker, .cm-s-inner .CodeMirror-guttermarker-subtle, .cm-s-inner .CodeMirror-linenumber { color: #596774; }
 .cm-s-inner .CodeMirror-cursor { border-left: 1px solid #f8f8f0; }
@@ -815,6 +848,10 @@ input {
 .cm-s-inner .CodeMirror-matchingbracket {
   text-decoration: underline;
   color: white !important;
+}
+
+.cm-s-inner .cm-header, .cm-s-inner.cm-header {
+  color: #334EEA;
 }
 
 .md-fences .code-tooltip {
