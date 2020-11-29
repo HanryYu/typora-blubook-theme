@@ -33,6 +33,11 @@
   margin-top: 0.66em;
 }
 
+/*** Search settings ***/
+.list-group-header > div{
+  padding-top: 10px;
+}
+
 /****** #write basic ******/
 #write {
     position: static;
