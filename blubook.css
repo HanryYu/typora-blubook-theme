@@ -11,10 +11,31 @@
     --active-file-border-color: #757575;
     --active-search-item-bg-color: #23242b;
     --item-hover-bg-color: #ececec;
-    --item-hover-text-color: #f5f7f9;
+    --item-hover-text-color: #000000;
     --control-text-color: #ddd;
     --window-border: 1px solid #183055;
     --code-cursor: #f0f0f0;
+}
+
+/*** Search file or outline ***/
+#file-library-search-panel{
+  padding-top: 16px;
+} 
+
+#filesearch-case-option-btn,
+#filesearch-word-option-btn{
+  margin-top: 8px;
+  background: var(--side-bar-bg-color);
+}
+
+/*** Search words ***/
+#search-panel-input{
+  margin-top: 0.66em;
+}
+
+/*** Search settings ***/
+.list-group-header > div{
+  padding-top: 10px;
 }
 
 /****** #write basic ******/
