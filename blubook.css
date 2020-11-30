@@ -5,16 +5,22 @@
 
 /*** Color setting ***/
 :root {
-  --side-bar-bg-color: #183055;
-  --active-file-bg-color: #2f4566;
-  --active-file-text-color: #ffffff;
-  --active-file-border-color: #757575;
-  --active-search-item-bg-color: #23242b;
-  --item-hover-bg-color: #ececec;
-  --item-hover-text-color: #f5f7f9;
-  --control-text-color: #ddd;
-  --window-border: 1px solid #183055;
-  --code-cursor: #f0f0f0;
+    --side-bar-bg-color: #183055;
+    --active-file-bg-color: #2f4566;
+    --active-file-text-color: #ffffff;
+    --active-file-border-color: #757575;
+    --active-search-item-bg-color: #23242b;
+    --item-hover-bg-color: #ececec;
+    --item-hover-text-color: #000000;
+    --control-text-color: #ddd;
+    --window-border: 1px solid #183055;
+    --code-cursor: #f0f0f0;
+}
+
+/*** Btn in search bar ***/
+#filesearch-case-option-btn,
+#filesearch-word-option-btn{
+  background: var(--side-bar-bg-color);
 }
 
 /****** #write basic ******/
@@ -937,12 +943,15 @@ div.md-mathjax-preview.mathjax-candidate.mathjax-candidate-show {
   background-color: white;
 }
 
-input {
+input{
   font-weight: bold;
   background-color: inherit;
   background-color: var(--bg-color);
-  color: var(--text-color) !important;
-  transform: translateY(-8px);
+  color: var(--text-color)!important;
+}
+
+#write input {
+  transform: translateY(-6.5px);
 }
 
 .task-list {
