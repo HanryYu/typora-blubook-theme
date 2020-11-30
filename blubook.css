@@ -17,25 +17,10 @@
     --code-cursor: #f0f0f0;
 }
 
-/*** Search file or outline ***/
-#file-library-search-panel{
-  padding-top: 16px;
-} 
-
+/*** Btn in search bar ***/
 #filesearch-case-option-btn,
 #filesearch-word-option-btn{
-  margin-top: 8px;
   background: var(--side-bar-bg-color);
-}
-
-/*** Search words ***/
-#search-panel-input{
-  margin-top: 0.66em;
-}
-
-/*** Search settings ***/
-.list-group-header > div{
-  padding-top: 10px;
 }
 
 /****** #write basic ******/
@@ -790,12 +775,15 @@ div.md-mathjax-preview.mathjax-candidate.mathjax-candidate-show {
   background-color: white;
 }
 
-input {
+input{
   font-weight: bold;
   background-color: inherit;
   background-color: var(--bg-color);
   color: var(--text-color)!important;
-  transform: translateY(-8px);
+}
+
+#write input {
+  transform: translateY(-6.5px);
 }
 
 .task-list{
@@ -878,5 +866,4 @@ input {
 .md-fences .code-tooltip {
   background-color: #263238;
 }
-
 
