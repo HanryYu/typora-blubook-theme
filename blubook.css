@@ -15,6 +15,8 @@
   --control-text-color: #ddd;
   --window-border: 1px solid #183055;
   --code-cursor: #f0f0f0;
+  --search-select-bg-color: rgba(248, 192, 116, .3);
+  --search-select-text-color: rgb(59, 69, 78);
 }
 
 /*** Btn in search bar ***/
@@ -214,7 +216,7 @@ ul>li>ul>li>ul>li {
 }
 
 ol,
-ul {
+ul:not(#sidebar-files-menu,#context-menu) {
   padding-left: 2rem;
   line-height: 1;
 }
@@ -611,7 +613,7 @@ tt {
 }
 
 #typora-sidebar #outline-content .outline-item:hover {
-  background: #202020;
+	background: var(--active-file-bg-color);
 }
 
 #typora-sidebar #ty-sidebar-footer #sidebar-files-menu .show+.menuitem-group-label.show {
@@ -862,23 +864,30 @@ pre.CodeMirror-line {
 
 /****** Code style ******/
 code {
-  font-size: .9rem;
-  /*   color: #333333; /*  #537AA2;  
-      border: 1px solid #d0d0d0;  */
-  font-family: 'Cascadia Code', Consolas, 'Noto Sans SC', 'Courier New', monospace;
   padding: .2rem .2rem;
   border-radius: 3px;
-  background: #f5f7f9 !important;
   display: inline;
   vertical-align: bottom;
   line-height: 1.8;
+}
+
+/******Code background******/
+code:not(.md-search-expand) {
+    /* rgb(233, 240, 254) */
+    /* rgb(245, 247, 249) */
+    background: hsl(208, 84%, 88%) !important;
+}
+
+/******Color when select to search******/
+.md-search-expand code {
+    background: hsla(0, 0%, 0%, 0) !important;
 }
 
 code,
 pre {
   font-size: 95% !important;
   font-weight: normal;
-  font-family: 'Cascadia Code', Consolas, 'Noto Sans SC', 'Courier New', monospace;
+  font-family: 'Cascadia Code', Consolas, 'Noto Sans SC', 'Courier New', "微软雅黑", 'Microsoft YaHei', "华文细黑", STXihei;
   -webkit-font-smoothing: initial;
   -moz-osx-font-smoothing: initial
 }
@@ -950,8 +959,16 @@ input {
   color: var(--text-color) !important;
 }
 
-#write input {
+#write input:not(#md-grid-width):not(#md-grid-height) {
   transform: translateY(-6.5px);
+}
+
+#write .popover.bottom.md-table-resize-popover{
+    width: 140px;
+}
+
+#write .md-grid-board-wrap input {
+    text-align: center !important;
 }
 
 .task-list {
@@ -1117,5 +1134,18 @@ input {
 }
 
 .md-fences .code-tooltip {
-  background-color: #263238;
+    background-color: rgb(53, 95, 127);
+}
+
+#write .cm-s-inner .CodeMirror-selected,
+#write .cm-s-inner .CodeMirror-selectedtext {
+  background: #5b808d !important;
+}
+
+#typora-sidebar-resizer.dragging{
+    color: #6eace2;
+}
+
+#typora-sidebar-resizer{
+    left: calc(var(--sidebar-width) - 3px);
 }
