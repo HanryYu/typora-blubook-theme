@@ -15,7 +15,7 @@
   --control-text-color: #ddd;
   --window-border: 1px solid #183055;
   --code-cursor: #f0f0f0;
-  --search-select-bg-color: rgba(248, 192, 116, .3);
+  --search-select-bg-color: rgba(248, 192, 116, 0.3);
   --search-select-text-color: rgb(59, 69, 78);
 }
 
