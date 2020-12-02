@@ -248,7 +248,7 @@ table tr {
 
 table tr:nth-child(2n),
 thead {
-  background-color: #f5f7f9;
+  background-color: #f6f9fb;
 }
 
 table tr th {
@@ -648,6 +648,14 @@ tt {
   height: 2.2rem;
 }
 
+#typora-sidebar-resizer.dragging{
+  color: #6eace2;
+}
+
+#typora-sidebar-resizer{
+  left: calc(var(--sidebar-width) - 3px);
+}
+
 /****** Quote style ******/
 blockquote {
   position: relative;
@@ -873,7 +881,7 @@ code {
 
 /******Code background******/
 code:not(.md-search-expand) {
-    background: rgb(239, 243, 247) !important;
+    background: #ecf1f5 !important;
 }
 
 /******Color when select to search******/
@@ -1140,10 +1148,3 @@ input {
   background: #5b808d !important;
 }
 
-#typora-sidebar-resizer.dragging{
-    color: #6eace2;
-}
-
-#typora-sidebar-resizer{
-    left: calc(var(--sidebar-width) - 3px);
-}
