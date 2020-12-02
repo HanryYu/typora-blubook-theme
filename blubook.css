@@ -873,9 +873,7 @@ code {
 
 /******Code background******/
 code:not(.md-search-expand) {
-    /* rgb(233, 240, 254) */
-    /* rgb(245, 247, 249) */
-    background: hsl(208, 84%, 88%) !important;
+    background: rgb(239, 243, 247) !important;
 }
 
 /******Color when select to search******/
@@ -887,7 +885,7 @@ code,
 pre {
   font-size: 95% !important;
   font-weight: normal;
-  font-family: 'Cascadia Code', Consolas, 'Noto Sans SC', 'Courier New', "微软雅黑", 'Microsoft YaHei', "华文细黑", STXihei;
+  font-family: 'Cascadia Code', Consolas, 'Glow Sans SC', 'Courier New', "微软雅黑", 'Microsoft YaHei', "华文细黑", STXihei;
   -webkit-font-smoothing: initial;
   -moz-osx-font-smoothing: initial
 }
@@ -1134,7 +1132,7 @@ input {
 }
 
 .md-fences .code-tooltip {
-    background-color: rgb(53, 95, 127);
+    background-color:  #263238;
 }
 
 #write .cm-s-inner .CodeMirror-selected,
