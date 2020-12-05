@@ -434,6 +434,14 @@ h6 {
   border-left: 2px solid var(--code-cursor);
 }
 
+#typora-source .CodeMirror-code pre{
+  font-family: 'Cascadia Code', Consolas, 'Noto Sans SC', 'Courier New', "微软雅黑", 'Microsoft YaHei', "华文细黑", STXihei;
+}
+
+#typora-source .CodeMirror-code{
+  font-size: 1.1rem;
+}
+
 #write code,
 tt {
   margin: 0 2px;
@@ -446,8 +454,12 @@ tt {
   line-height: 1.8;
 }
 
+#write *[mdtype="heading"] code{
+  font-size: inherit!important;
+}
+
 #write .md-footnote {
-  color: var(--main-5);
+  color: rgb(56, 132, 254);
   background-color: var(--main-1);
 }
 
@@ -614,6 +626,14 @@ tt {
 
 #typora-sidebar #outline-content .outline-item:hover {
 	background: var(--active-file-bg-color);
+}
+
+#outline-content code{
+  margin-left:5px;
+  margin-right:5px;
+  padding:1px 2px;
+  vertical-align:baseline;
+  background-color: gray!important;
 }
 
 #typora-sidebar #ty-sidebar-footer #sidebar-files-menu .show+.menuitem-group-label.show {
@@ -1147,4 +1167,3 @@ input {
 #write .cm-s-inner .CodeMirror-selectedtext {
   background: #5b808d !important;
 }
-
