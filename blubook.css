@@ -968,7 +968,6 @@ code,
 pre,
 #write .md-mathblock-input {
   font-size: 0.95rem !important;
-  font-weight: normal;
   font-family: 'Cascadia Code', Consolas, 'Glow Sans SC', 'Courier New', "微软雅黑", 'Microsoft YaHei', "华文细黑", STXihei;
   -webkit-font-smoothing: initial;
   -moz-osx-font-smoothing: initial
