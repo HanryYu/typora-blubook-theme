@@ -34,10 +34,22 @@
 #write {
   position: static;
   width: 90%;
-  max-width: 1080px;
+  max-width: 860px;
   line-height: 1.6;
   transform: none;
   height: auto;
+}
+
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1024px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	#write {
+		max-width: 1200px;
+	}
 }
 
 /****** #write h1-h6 ******/
