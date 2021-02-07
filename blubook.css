@@ -511,8 +511,9 @@ tt {
   font-size: 0.9rem;
 }
 
-/****** Sidebar ******/
-#typora-sidebar * {
+/****** Sidebar and Quick open******/
+#typora-sidebar *,
+#typora-quick-open{
   color: #f0f0f0;
 }
 
@@ -891,13 +892,10 @@ blockquote::before {
 }
 
 /*
-
     Name:       3024 day
     Author:     Jan T. Sott (http://github.com/idleberg)
-
     CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-codemirror)
     Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
-
 */
 
 .cm-s-typora-default.CodeMirror { background: #f7f7f7; color: #3a3432; }
