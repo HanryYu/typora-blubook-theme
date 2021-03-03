@@ -437,13 +437,9 @@ h6 {
   border-left: 2px solid var(--code-cursor);
 }
 
+#typora-source .CodeMirror-code pre,
 .cm-s-typora-default .cm-overlay{
   font-family: 'Cascadia Code', Consolas, 'Noto Sans SC', 'Courier New', "微软雅黑", 'Microsoft YaHei', "华文细黑", STXihei;
-}
-
-/****** Fix source mode alignment issue ******/
-#typora-source .CodeMirror-code pre{
-  font-family: inherit;
 }
 
 #typora-source .CodeMirror-code{
