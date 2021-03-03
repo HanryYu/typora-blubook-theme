@@ -437,16 +437,19 @@ h6 {
   border-left: 2px solid var(--code-cursor);
 }
 
-#typora-source .CodeMirror-code pre,
 .cm-s-typora-default .cm-overlay{
   font-family: 'Cascadia Code', Consolas, 'Noto Sans SC', 'Courier New', "微软雅黑", 'Microsoft YaHei', "华文细黑", STXihei;
+}
+
+/****** Fix source mode alignment issue ******/
+#typora-source .CodeMirror-code pre{
+  font-family: inherit;
 }
 
 #typora-source .CodeMirror-code{
   font-size: 1.1rem;
 }
 
-#write code,
 tt {
   margin: 0 2px;
   padding: 4px 6px;
@@ -455,6 +458,17 @@ tt {
   background: #f5f7f9;
   display: inline;
   vertical-align: bottom;
+  line-height: 1.8;
+}
+
+#write code{
+  margin: 0 2px;
+  padding: 3px 6px;
+  border-radius: 6px;
+  font-size: 1.1rem !important;/* Fix view mode alignment issue */
+  background: #f5f7f9;
+  display: inline;
+  vertical-align: initial;
   line-height: 1.8;
 }
 
