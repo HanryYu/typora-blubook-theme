@@ -432,6 +432,7 @@ h6 {
 
 
 #write .CodeMirror-wrap .CodeMirror-code pre {
+  padding-left: 10px;
   line-height: 1.55rem;
 }
 
