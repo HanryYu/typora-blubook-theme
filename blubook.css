@@ -467,8 +467,16 @@ tt {
   font-size: 1.1rem !important;/* Fix view mode alignment issue */
   background: #f5f7f9;
   display: inline;
-  vertical-align: initial;
+  vertical-align: text-top;
   line-height: 1.8;
+}
+
+#write span[md-inline='highlight'] code{
+  font-size: 0.95rem !important;
+}
+
+#write blockquote[mdtype='blockquote'] code{
+  background: #dbe5ec99 !important;
 }
 
 #write *[mdtype="heading"] code{
