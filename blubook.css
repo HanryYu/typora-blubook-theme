@@ -19,6 +19,10 @@
   --search-select-text-color: rgb(59, 69, 78);
 }
 
+.md-search-hit.md-search-select{
+  background-color: rgb(248, 192, 116);
+}
+
 /*** Btn in search bar ***/
 #filesearch-case-option-btn,
 #filesearch-word-option-btn {
@@ -306,7 +310,6 @@ p {
 a {
   /* color: rgb(164, 78, 237); */
   color: rgb(56, 132, 254);
-  font-weight: 500;
   text-decoration: none;
   text-decoration-style: none;
   cursor: pointer;
