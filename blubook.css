@@ -51,12 +51,12 @@
   width: auto;
 }
 
-#write h1::before,
-#write h2::before,
-#write h3::before,
-#write h4::before,
-#write h5::before,
-#write h6::before {
+#write>h1::before,
+#write>h2::before,
+#write>h3::before,
+#write>h4::before,
+#write>h5::before,
+#write>h6::before {
   position: absolute;
   right: calc(100% + 10px);
   bottom: 0;
@@ -69,6 +69,7 @@
   left: auto;
   float: none;
   padding: 0;
+  line-height: 2;
 }
 
 #write h1 {
@@ -80,7 +81,7 @@
   margin-bottom: 14px;
 }
 
-#write h1::before {
+#write>h1::before {
   content: 'H1';
   bottom: 1rem;
 }
@@ -94,7 +95,7 @@
   margin-bottom: 14px;
 }
 
-#write h2::before {
+#write>h2::before {
   content: 'H2';
   bottom: .85rem;
 }
@@ -108,7 +109,7 @@
   margin-bottom: 14px;
 }
 
-#write h3::before {
+#write>h3::before {
   content: 'H3';
   top: .44rem;
   padding: 3px 0 3px 0;
@@ -123,7 +124,7 @@
   margin-bottom: 14px;
 }
 
-#write h4::before {
+#write>h4::before {
   content: 'H4';
   top: .4rem;
 }
@@ -143,32 +144,12 @@
   top: .2rem;
 }
 
-#write h5::before {
+#write>h5::before {
   content: 'H5';
 }
 
-#write h6::before {
+#write>h6::before {
   content: 'H6';
-}
-
-h3.md-focus:before,
-h4.md-focus:before,
-h5.md-focus:before,
-h6.md-focus:before {
-  color: #ddd;
-  color: var(--heading-char-color);
-  border: 1px solid;
-  border-radius: 3px;
-  position: absolute;
-  left: -1.642857143rem;
-  top: .357142857rem;
-  float: left;
-  font-size: 0.64rem;
-  padding-left: 2px;
-  padding-right: 2px;
-  vertical-align: bottom;
-  font-weight: 400;
-  line-height: 2;
 }
 
 /****** Global Style ******/
