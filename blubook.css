@@ -203,7 +203,7 @@ ul>li>ul>li>ul>li {
 }
 
 ol,
-ul:not(#sidebar-files-menu,#context-menu) {
+ul:not(#sidebar-files-menu,#context-menu,.outline-children) {
   padding-left: 2rem;
   line-height: 1;
 }
@@ -451,8 +451,12 @@ tt {
   font-size: 1.1rem !important;/* Fix view mode alignment issue */
   background: #f5f7f9;
   display: inline;
-  vertical-align: text-top;
+  vertical-align: top;
   line-height: 1.8;
+}
+
+#write table code{
+  vertical-align: baseline;
 }
 
 #write span[md-inline='highlight'] code{
@@ -465,6 +469,7 @@ tt {
 
 #write *[mdtype="heading"] code{
   font-size: inherit!important;
+  vertical-align: baseline;
 }
 
 #write .md-footnote {
@@ -520,6 +525,10 @@ tt {
 #typora-sidebar *,
 #typora-quick-open{
   color: #f0f0f0;
+}
+
+.typora-quick-open-item-path{/* file path in the Quick open panel*/
+  white-space: nowrap;
 }
 
 #typora-sidebar .file-tree-node.file-library-file-node.active .file-node-background {
@@ -1005,6 +1014,11 @@ pre.md-fences[lang=mermaid].md-focus .md-diagram-panel {
   color: #fff;
 }
 
+.ty-input.ty-input-after.ty-cm-lang-input::selection,
+.ty-input.ty-input-after.ty-cm-lang-input::-webkit-selection{
+  color: #000000;
+}
+
 .enable-diagrams pre.md-fences[lang=sequence] .code-tooltip,
 .enable-diagrams pre.md-fences[lang=flow] .code-tooltip,
 .enable-diagrams pre.md-fences[lang=mermaid] .code-tooltip {
@@ -1012,7 +1026,7 @@ pre.md-fences[lang=mermaid].md-focus .md-diagram-panel {
   bottom: -2.2em;
 }
 
-/****** Windows contral ******/
+/****** Windows control ******/
 .megamenu-menu-list li a.active,
 .megamenu-menu-list:not(.saved) li a:hover {
   background-color: #285e8e;
