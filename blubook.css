@@ -1051,6 +1051,10 @@ div.md-mathjax-preview.mathjax-candidate.mathjax-candidate-show {
   -webkit-user-modify: read-only;
 }
 
+.md-mathjax-preview {
+    color: #ffffff;
+}
+
 .mathjax-candidate {
   text-align: center;
   padding-top: inherit;
