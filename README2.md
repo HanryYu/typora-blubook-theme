@@ -1,8 +1,8 @@
 # typora-blubook-themes
 
-[![GitHub stars](https://img.shields.io/github/stars/FishionYu/typora-blubook-theme?style=flat-square)](https://github.com/FishionYu/typora-blubook-theme/stargazers)  ![GitHub All Releases](https://img.shields.io/github/downloads/FishionYu/typora-blubook-theme/total?color=%23c060a1&style=flat-square)  [![GitHub license](https://img.shields.io/github/license/FishionYu/typora-blubook-theme?style=flat-square)](https://github.com/FishionYu/typora-blubook-theme/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/FishionYu/typora-blubook-theme?style=flat-square)](https://github.com/HanryYu/typora-blubook-theme/stargazers)  ![GitHub All Releases](https://img.shields.io/github/downloads/HanryYu/typora-blubook-theme/total?color=%23c060a1&style=flat-square)  [![GitHub license](https://img.shields.io/github/license/HanryYu/typora-blubook-theme?style=flat-square)](https://github.com/HanryYu/typora-blubook-theme/blob/master/LICENSE)
 
-![image-20200709174602423](https://cdn.jsdelivr.net/gh/FishionYu/Rayyu-sPic@master/img/image-20200709174602423.png)
+![image-20200709174602423](https://cdn.jsdelivr.net/gh/HanryYu/typora-blubook-theme@master/assets/1.png)
 
 ## 📘What is Blubook
 
@@ -12,21 +12,17 @@
 
 - 📝📖大多数字体采用未来荧黑，这个字体对于中文和英文都不错。
 
-![image-20200708104640527](https://cdn.jsdelivr.net/gh/FishionYu/Rayyu-sPic@master/img/image-20200708104640527.png)
+![image-20200709174602423](https://cdn.jsdelivr.net/gh/HanryYu/typora-blubook-theme@master/assets/2.png)
 
 - 👨‍💻‍👩‍💻代码字体使用的 `Cascadia Code` 。这个字体支持连字，当你输入一些数学字符 就像不等于号 '!=' ，会自动生成对应的单字符。
 
-   例如 ⬇️
-
-   <img src="https://cdn.jsdelivr.net/gh/FishionYu/Rayyu-sPic@master/img/image-20200708094758539.png" alt="image-20200708094758539" style="zoom:50%;" />
-
 - 🎨一些Typora的ui采用圆角矩形，观感更好。
 
-![image-20200708104854550](https://cdn.jsdelivr.net/gh/FishionYu/Rayyu-sPic@master/img/image-20200708104854550.png)
+![image-20200709174602423](https://cdn.jsdelivr.net/gh/HanryYu/typora-blubook-theme@master/assets/3.png)
 
 - :keyboard: 尽可能的提升撰写代码笔记的体验，并使用足够丰富的高亮样式。
 
-   ![image-20200929160011736](https://cdn.jsdelivr.net/gh/FishionYu/Rayyu-sPic@master/img/image-20200929160011736.png)
+![image-20200709174602423](https://cdn.jsdelivr.net/gh/HanryYu/typora-blubook-theme@master/assets/4.png)
 
 ## 🔨Install
 
